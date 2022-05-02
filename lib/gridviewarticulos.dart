@@ -23,7 +23,37 @@ class _MyHomePageState extends State<PaginaInicial> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Listado de articulos"),
+          //leading: const Icon(Icons.arrow_back),
+          automaticallyImplyLeading: true,
+          //leading: const Icon(Icons.arrow_back),
+
+          title: const Text("MUEBLERIA EL CAMINO"),
+          centerTitle: true,
+
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.search),
+              onPressed: () {
+                print("soy edwin");
+              },
+            ),
+            IconButton(
+              icon: const Icon(
+                Icons.add_card,
+              ),
+              onPressed: () {},
+            ),
+            IconButton(
+              icon: const Icon(
+                Icons.admin_panel_settings,
+              ),
+              onPressed: () {},
+            )
+          ],
+
+          elevation: 8,
+          shadowColor: Colors.black,
+          backgroundColor: Colors.black,
         ),
         body: GridView.custom(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
