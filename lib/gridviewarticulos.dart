@@ -39,12 +39,6 @@ class _MyHomePageState extends State<PaginaInicial> {
             ),
             IconButton(
               icon: const Icon(
-                Icons.add_card,
-              ),
-              onPressed: () {},
-            ),
-            IconButton(
-              icon: const Icon(
                 Icons.admin_panel_settings,
               ),
               onPressed: () {},
