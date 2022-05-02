@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:martinez/gridviewarticulos.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   }
 } //Widget sin estado
 
-class MyHomePage extends StatefulWidget {
+/*class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -59,4 +60,4 @@ class _MyHomePageState extends State<MyHomePage> {
           shrinkWrap: true,
         ));
   }
-}
+}*/
