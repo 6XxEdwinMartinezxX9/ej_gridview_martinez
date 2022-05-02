@@ -27,7 +27,7 @@ class _MyHomePageState extends State<PaginaInicial> {
           automaticallyImplyLeading: true,
           //leading: const Icon(Icons.arrow_back),
 
-          title: const Text("MUEBLERIA EL CAMINO"),
+          title: const Text("Listado articulos"),
           centerTitle: true,
 
           actions: [
