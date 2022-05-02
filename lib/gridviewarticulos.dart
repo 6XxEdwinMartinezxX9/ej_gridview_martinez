@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'package:martinez/main.dart';
 
 class PaginaInicial extends StatefulWidget {
   const PaginaInicial({Key? key}) : super(key: key);
@@ -24,7 +23,7 @@ class _MyHomePageState extends State<PaginaInicial> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Flutter GridView"),
+          title: const Text("Listado de articulos"),
         ),
         body: GridView.custom(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
